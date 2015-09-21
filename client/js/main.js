@@ -113,7 +113,7 @@ var remoteApp = {
 					["auxsend", 14, "14", 1],
 					["auxsend", 15, "15", 1],
 					["auxsend", 16, "16", 1],
-					["sum", 0, "S"]
+					["aux", 1, "A1"]
 				]
 			},
 			
@@ -136,7 +136,145 @@ var remoteApp = {
 					["auxsend", 14, "14", 2],
 					["auxsend", 15, "15", 2],
 					["auxsend", 16, "16", 2],
-					["sum", 0, "S"]
+					["aux", 2, "A2"]
+				]
+			},
+			
+			aux3: {
+				label: "AUX 3",
+				faders: [
+					["auxsend", 1, "1", 3],
+					["auxsend", 2, "2", 3],
+					["auxsend", 3, "3", 3],
+					["auxsend", 4, "4", 3],
+					["auxsend", 5, "5", 3],
+					["auxsend", 6, "6", 3],
+					["auxsend", 7, "7", 3],
+					["auxsend", 8, "8", 3],
+					["auxsend", 9, "9", 3],
+					["auxsend", 10, "10", 3],
+					["auxsend", 11, "11", 3],
+					["auxsend", 12, "12", 3],
+					["auxsend", 13, "13", 3],
+					["auxsend", 14, "14", 3],
+					["auxsend", 15, "15", 3],
+					["auxsend", 16, "16", 3],
+					["aux", 3, "A3"]
+				]
+			},
+			
+			aux4: {
+				label: "AUX 4",
+				faders: [
+					["auxsend", 1, "1", 4],
+					["auxsend", 2, "2", 4],
+					["auxsend", 3, "3", 4],
+					["auxsend", 4, "4", 4],
+					["auxsend", 5, "5", 4],
+					["auxsend", 6, "6", 4],
+					["auxsend", 7, "7", 4],
+					["auxsend", 8, "8", 4],
+					["auxsend", 9, "9", 4],
+					["auxsend", 10, "10", 4],
+					["auxsend", 11, "11", 4],
+					["auxsend", 12, "12", 4],
+					["auxsend", 13, "13", 4],
+					["auxsend", 14, "14", 4],
+					["auxsend", 15, "15", 4],
+					["auxsend", 16, "16", 4],
+					["aux", 4, "A4"]
+				]
+			},
+			
+			aux5: {
+				label: "AUX 5",
+				faders: [
+					["auxsend", 1, "1", 5],
+					["auxsend", 2, "2", 5],
+					["auxsend", 3, "3", 5],
+					["auxsend", 4, "4", 5],
+					["auxsend", 5, "5", 5],
+					["auxsend", 6, "6", 5],
+					["auxsend", 7, "7", 5],
+					["auxsend", 8, "8", 5],
+					["auxsend", 9, "9", 5],
+					["auxsend", 10, "10", 5],
+					["auxsend", 11, "11", 5],
+					["auxsend", 12, "12", 5],
+					["auxsend", 13, "13", 5],
+					["auxsend", 14, "14", 5],
+					["auxsend", 15, "15", 5],
+					["auxsend", 16, "16", 5],
+					["aux", 5, "A5"]
+				]
+			},
+			
+			aux6: {
+				label: "AUX 6",
+				faders: [
+					["auxsend", 1, "1", 6],
+					["auxsend", 2, "2", 6],
+					["auxsend", 3, "3", 6],
+					["auxsend", 4, "4", 6],
+					["auxsend", 5, "5", 6],
+					["auxsend", 6, "6", 6],
+					["auxsend", 7, "7", 6],
+					["auxsend", 8, "8", 6],
+					["auxsend", 9, "9", 6],
+					["auxsend", 10, "10", 6],
+					["auxsend", 11, "11", 6],
+					["auxsend", 12, "12", 6],
+					["auxsend", 13, "13", 6],
+					["auxsend", 14, "14", 6],
+					["auxsend", 15, "15", 6],
+					["auxsend", 16, "16", 6],
+					["aux", 6, "A6"]
+				]
+			},
+			
+			aux7: {
+				label: "AUX 7",
+				faders: [
+					["auxsend", 1, "1", 7],
+					["auxsend", 2, "2", 7],
+					["auxsend", 3, "3", 7],
+					["auxsend", 4, "4", 7],
+					["auxsend", 5, "5", 7],
+					["auxsend", 6, "6", 7],
+					["auxsend", 7, "7", 7],
+					["auxsend", 8, "8", 7],
+					["auxsend", 9, "9", 7],
+					["auxsend", 10, "10", 7],
+					["auxsend", 11, "11", 7],
+					["auxsend", 12, "12", 7],
+					["auxsend", 13, "13", 7],
+					["auxsend", 14, "14", 7],
+					["auxsend", 15, "15", 7],
+					["auxsend", 16, "16", 7],
+					["aux", 7, "A7"]
+				]
+			},
+			
+			aux8: {
+				label: "AUX 8",
+				faders: [
+					["auxsend", 1, "1", 8],
+					["auxsend", 2, "2", 8],
+					["auxsend", 3, "3", 8],
+					["auxsend", 4, "4", 8],
+					["auxsend", 5, "5", 8],
+					["auxsend", 6, "6", 8],
+					["auxsend", 7, "7", 8],
+					["auxsend", 8, "8", 8],
+					["auxsend", 9, "9", 8],
+					["auxsend", 10, "10", 8],
+					["auxsend", 11, "11", 8],
+					["auxsend", 12, "12", 8],
+					["auxsend", 13, "13", 8],
+					["auxsend", 14, "14", 8],
+					["auxsend", 15, "15", 8],
+					["auxsend", 16, "16", 8],
+					["aux", 8, "A8"]
 				]
 			},
 			
